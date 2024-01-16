@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .banermain {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .banersection {
+        padding: 20px 10px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banerselectiontrip {
+        flex-direction: column;
+        width: 400px;
+        height: 200px;
+    }
+
+    .banersection h1 {
+        margin-bottom: 0;
+    }
+
+    .banerselectiontrip button {
+        width: 360px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .banerselectiontrip input {
+        width: 350px;
+        height: 25px;
+
+    }
+
+    /* Populr tours  */
+    .tour-section {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .tour-share {
+        width: 90%;
+    }
+
+    .tour-img {
+        width: 90%;
+    }
+
+}
