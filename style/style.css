@@ -101,3 +101,28 @@
     height: 400px;
     width: 100%;
 }
+
+/* choos destination */
+.row-cmn {
+    display: flex;
+
+}
+
+.row-1 img {
+    margin: 10px;
+    width: 50%;
+}
+
+.row-2-container {
+    width: 800px;
+}
+
+.row-2 img {
+    margin: 10px;
+
+}
+
+#img1,
+#img3 {
+    width: 100%;
+}
