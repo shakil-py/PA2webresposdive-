@@ -67,7 +67,6 @@
     border: 0;
     margin: 5px;
     padding: 5px;
-
     border-radius: 5px;
 }
 
@@ -110,10 +109,14 @@
 
 }
 
-.destination-choos,
-h1 {
+.destination-choos h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.destination-choos h1,
+.destination-choos p {
     text-align: center;
-    margin: 0;
 }
 
 .row-1 img {
@@ -147,4 +150,58 @@ h1 {
 .row-3 img {
     width: 50%;
     margin: 10px;
+}
+
+/* why choose section */
+.choos-usinfo h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.choos-usinfo p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.choose-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service1 {
+    background: #ffe8a7;
+}
+
+.service2 {
+    background: #c5fcff;
+}
+
+.service1,
+.service2,
+.service3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding: 10px 25px;
+}
+
+.choose-row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.service3 {
+    background-color: lightpink;
 }
