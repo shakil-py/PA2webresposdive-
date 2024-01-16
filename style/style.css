@@ -22,11 +22,10 @@
 
 .banermain {
     background-image: linear-gradient(to bottom, rgba(31, 31, 31, 0.549), rgba(255, 255, 255, 0)),
-        url('/images/Group\ 13\ \(1\)\ \(1\).png');
+        url('../images/Group\ 13\ \(1\)\ \(1\).png');
     margin-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: ;
     border-radius: 15px;
 }
 
