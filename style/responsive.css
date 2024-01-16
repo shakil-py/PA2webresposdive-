@@ -60,4 +60,19 @@
         width: 90%;
     }
 
+    /* choose sectin */
+    .fullspace {
+        margin: 0 10px;
+    }
+
+    .row-cmn {
+        flex-direction: column;
+    }
+    .row-1 img,.row-2 img,.row-3 img{
+        width: 100%;
+    }
+    #img2{
+        width: 100%;
+    }
+
 }

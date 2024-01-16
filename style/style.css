@@ -103,10 +103,18 @@
 }
 
 /* choos destination */
+
+
 .row-cmn {
     display: flex;
     justify-content: center;
 
+}
+
+.destination-choos,
+h1 {
+    text-align: center;
+    margin: 0;
 }
 
 .row-1 img {
@@ -120,13 +128,14 @@
 
 .row-2 img {
     margin: 10px;
+    width: 30%;
 
 }
 
-/* #img1,
-#img3 {
-    width: 30%;
-} */
+
+#img2 {
+    width: 38%;
+}
 
 .row-3 {
     display: flex;
