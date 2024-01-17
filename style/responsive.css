@@ -68,21 +68,48 @@
     .row-cmn {
         flex-direction: column;
     }
-    .row-1 img,.row-2 img,.row-3 img{
+
+    .row-1 img,
+    .row-2 img,
+    .row-3 img {
         width: 100%;
     }
-    #img2{
+
+    #img2 {
         width: 100%;
     }
-    .choose-row{
+
+    .choose-row {
         flex-direction: column;
-        
+
     }
-    .service1,.service2,.service3{
+
+    .service1,
+    .service2,
+    .service3 {
         width: 100%;
         margin: 5px 10px;
         justify-content: center;
     }
-    .
+
+    .deal-info h1 {
+        font-size: 40px;
+    }
+
+    .satoni-package {
+        width: 95%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .package-details {
+        font-size: 12px;
+    }
+
+    .dealbaner {
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+    }
 
 }
