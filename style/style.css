@@ -46,7 +46,8 @@
 }
 
 .banersection h1 {
-    font-size: 30px;
+    font-size: 50px;
+    margin-bottom: 5px;
 }
 
 /* banar input section */
@@ -213,6 +214,16 @@
 }
 
 /* Deals and Discount */
+.deal-info {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.deal-info h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
 .satoni-package {
     color: rgb(73, 71, 71);
     background-color: rgba(255, 254, 252, 0.833);
@@ -244,13 +255,15 @@
     align-items: center;
     justify-content: right;
 }
-.tour-info-btn h1{
+
+.tour-info-btn h1 {
     margin-top: 0;
 }
 
-.tour-info-btn h3{
+.tour-info-btn h3 {
     color: red;
 }
-.tour-info-btn{
+
+.tour-info-btn {
     padding: 30px;
 }
