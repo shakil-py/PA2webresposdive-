@@ -112,4 +112,17 @@
         width: 100%;
     }
 
+    .lostplace {
+        flex-direction: column;
+    }
+
+    .place-info,
+    .place-video {
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+    .subscribeimg{
+        width: 100%;
+    }
+
 }

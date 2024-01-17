@@ -273,7 +273,46 @@
 .tour-info-btn {
     padding: 30px;
 }
-.allpackbtn{
+
+.allpackbtn {
     text-align: center;
+
+}
+
+/* lost place */
+.lostplace {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-info .place-video {
+    width: 50%;
+    padding: 20px;
+}
+
+/* news section */
+.news {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.newsletter,
+.newsimg {
+    width: 50%;
     
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+
+}
+
+.newsimg img {
+    width: 100%;
 }
