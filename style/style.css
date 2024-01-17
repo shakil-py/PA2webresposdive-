@@ -253,6 +253,13 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    margin-bottom: 20px;
+}
+
+#dealbaner2 {
+    justify-content: left;
+    padding-left: 20px;
+
 }
 
 .tour-info-btn h1 {
@@ -265,4 +272,8 @@
 
 .tour-info-btn {
     padding: 30px;
+}
+.allpackbtn{
+    text-align: center;
+    
 }
