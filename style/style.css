@@ -1,4 +1,10 @@
 /* share css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .main {
     margin: 0;
     padding: 0;
@@ -209,19 +215,42 @@
 /* Deals and Discount */
 .satoni-package {
     color: rgb(73, 71, 71);
-    background-color: rgba(255, 254, 252, 0.766);
+    background-color: rgba(255, 254, 252, 0.833);
     width: 50%;
     text-align: left;
+    margin-right: 20px;
+    height: 70%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
 .package-details {
     display: flex;
     justify-content: space-around;
+
+}
+
+.package-details h1 {
+    color: red;
+    margin: 0;
+    padding-top: 40px;
 }
 
 .dealbaner {
     display: flex;
     align-items: center;
     justify-content: right;
+}
+.tour-info-btn h1{
+    margin-top: 0;
+}
+
+.tour-info-btn h3{
+    color: red;
+}
+.tour-info-btn{
+    padding: 30px;
 }
