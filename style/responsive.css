@@ -121,8 +121,43 @@
         margin-bottom: 30px;
         padding: 5px;
     }
-    .subscribeimg{
+
+    .subscribeimg {
         width: 100%;
+    }
+
+    .news {
+        flex-direction: column;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .newsimg {
+        width: 100%;
+    }
+
+    .subscribefrom {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        width: 100%;
+        margin: 0;
+    }
+
+    .box {
+        position: relative;
+        /* margin: -130px; */
+        /* margin-left: 330px; */
+        /* transform: rotate(-30deg); */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: rgba(255, 143, 45, 0.921);
+        height: 80px;
+        width: 200px;
+        border-radius: 10px;
     }
 
 }
